@@ -1,3 +1,12 @@
+# NAME: FuckMIUI
+# AUTHOR: cleanery
+# REPO: https://github.com/LoopDns/Fuck-you-MIUI/tree/main
+# REPO: https://github.com/cleanery2022/clash-rule-set
+# UPDATED: 2023-05-13 14:49:23
+# DOMAIN: 108
+# DOMAIN-SUFFIX: 0
+# IP-CIDR: 0
+# TOTAL: 108
 payload:
   # MIUI 安装检查
   - DOMAIN,api.installer.xiaomi.com

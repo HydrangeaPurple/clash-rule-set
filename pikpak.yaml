@@ -1,7 +1,6 @@
 # Behavior: domain
-
 payload:
-  "+.mypikpak.com"
-  "+.mypikpak.net"
-  "+.pikpak.me"
-  "+.pikpakdrive.com"
+  - "+.mypikpak.com"
+  - "+.mypikpak.net"
+  - "+.pikpak.me"
+  - "+.pikpakdrive.com"

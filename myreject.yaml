@@ -1,7 +1,0 @@
-# Behavior: domain
-
-payload:
-  # 自定义拒绝策略
-  - "+.izatcloud.net"
-  # openai的第三方统计平台
-  - "+.sentry.io"

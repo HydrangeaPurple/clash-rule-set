@@ -1,0 +1,154 @@
+# NAME: FuckMIUI
+# AUTHOR: cleanery
+# REPO: https://github.com/LoopDns/Fuck-you-MIUI/tree/main
+# REPO: https://github.com/cleanery2022/clash-rule-set
+# UPDATED: 2023-05-13 14:49:23
+# DOMAIN: 108
+# Behavior: domain
+# MIUI 安装检查
+api.installer.xiaomi.com
+
+#OneTrack & Analytics & Ad
+tracking.miui.com
+data.mistat.xiaomi.com
+diagnosis.ad.xiaomi.com
+log.ad.xiaomi.com
+m.track.ad.xiaomi.com
+sdkconfig.ad.xiaomi.com
+
+# 小爱同学
+tracker.ai.xiaomi.com
+
+# 好像是小米自己的引擎 还在内测
+mazu.sec.miui.com
+
+# avl
+miui-fxcse.avlyun.com
+sdkconf.avlyun.com
+sdkconf.avlyun.com
+miav-cse.avlyun.com
+update.avlyun.sec.miui.com
+ixav-cse.avlyun.com
+logupdate.avlyun.sec.miui.com
+
+# 流量更新、病毒白名单
+api.sec.miui.com
+
+# 禁用后无法开启部分权限
+#srv.sec.miui.com
+
+#权限云控 好像只针对部分机型？
+auth.be.sec.miui.com
+
+#反诈
+flash.sec.miui.com
+
+#快应用
+api.hybrid.xiaomi.com
+
+#浏览器 热点下滑等
+o2o.api.xiaomi.com
+api.browser.miui.com
+ssl-cdn.static.browser.mi-img.com
+security.browser.miui.com
+hot.browser.miui.com
+r.browser.miui.com
+hd.browser.miui.com
+c3-cache.browser.miui.com
+api-ipv4.browser.miui.com
+
+# 系统应用检查更新 e.g 下载管理
+api.developer.xiaomi.com
+
+# 禁用后无法加载手机管家App内的图标
+#keybag.id.mi.com
+
+#  云控???
+qsb.browser.miui.srv
+rom.pt.miui.srv
+ccc.sys.miui.com
+jupiter.sys.miui.com
+metok.sys.miui.com
+
+# 其他系统应用的垃圾sdk
+# qq扫描 bugly 阅读 快应用等api
+# 可能会影响部分功能
+tmfsdk.m.qq.com
+tmfsdk4.m.qq.com
+tbm.snssdk.com
+othstr.beacon.qq.com
+tools.3g.qq.com
+tmfsdktcp.m.qq.com
+h.trace.qq.com
+hub5pn.wap.sandai.net
+tpstelemetry.tencent.com
+pssn.alicdn.com
+tmfsdktcpv4.m.qq.com
+tmeadcomm.y.qq.com
+tangram.e.qq.com
+us.l.qq.com
+tdid.m.qq.com
+h.trace.qq.com
+api.yky.qq.com
+sdk.e.qq.com
+android.bugly.qq.com
+toblog.ctobsnssdk.com
+tobapplog.ctobsnssdk.com
+cfg.imtt.qq.com
+statres.quickapp.cn
+qr.quickapp.cn
+hybrid.xiaomi.com
+hybrid.miui.com
+s1.irs03.com
+up.cm.ksmobile.com
+dl.cm.ksmobile.com
+dw-online.ksosoft.com
+zzhc.vnet.cn
+beacon-api.aliyuncs.com
+mpush-api.aliyun.com
+ug.snssdk.com
+t7z.cupid.iqiyi.com
+worldwide.sogou.com
+www.pangolin-dsp-toutiao.com
+master.wap.dphub.sandai.net
+hub5u.wap.sandai.net
+idx.m.hub.sandai.net
+tw13b093.sandai.net
+adinfo.ra1.xlmc.sec.miui.com
+test.ad.xiaomi.com
+uploadlog.xlmc.sandai.net
+t03-api.xlmc.xunlei.com
+pre.api.tw06.xlmc.sandai.net
+guid-xldw-ssl.n0808.com
+
+# unknown
+data.sec.miui.com
+
+#此处主要屏蔽小米云扫描组件
+log.avlyun.sec.intl.miui.com
+update.avlyun.sec.miui.com
+ixav-cse.avlyun.com
+logupdate.avlyun.sec.miui.com
+miui-fxcse.avlyun.com
+sdkconf.avlyun.com
+sdkconf.avlyun.com
+miav-cse.avlyun.com
+miav-cse.avlyun.com
+api.installer.xiaomi.com
+tmfsdk.m.qq.com
+a0.app.xiaomi.com
+#屏蔽后无法矫正流量，但是也用来下载白名单
+#api.sec.miui.com
+adv.sec.miui.com
+xlmc.sec.miui.com
+#禁用后将无法云扫描病毒
+etl-xlmc-ssl.sandai.net
+cn.app.chat.xiaomi.net
+#疑似云盘，自行决定
+#pdc.micloud.xiaomi.net
+a.hl.mi.com
+#禁用后可能会导致小米浏览器无法下载APK，因为有垃圾推广安装
+idm.api.io.mi.com
+api.jr.mi.com
+ssl-cdn.static.browser.mi-img.com
+flash.sec.miui.com

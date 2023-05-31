@@ -1,5 +1,7 @@
+# Behavior: domain
+
 payload:
   # 自定义拒绝策略
-  - DOMAIN-SUFFIX,izatcloud.net
+  - "+.izatcloud.net"
   # openai的第三方统计平台
-  - DOMAIN-SUFFIX,sentry.io
+  - "+.sentry.io"

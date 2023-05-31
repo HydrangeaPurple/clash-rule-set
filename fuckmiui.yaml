@@ -4,154 +4,152 @@
 # REPO: https://github.com/cleanery2022/clash-rule-set
 # UPDATED: 2023-05-13 14:49:23
 # DOMAIN: 108
-# DOMAIN-SUFFIX: 0
-# IP-CIDR: 0
-# TOTAL: 108
+# Behavior: domain
 payload:
   # MIUI 安装检查
-  - DOMAIN,api.installer.xiaomi.com
+  - "api.installer.xiaomi.com"
 
   #OneTrack & Analytics & Ad
-  - DOMAIN,tracking.miui.com
-  - DOMAIN,data.mistat.xiaomi.com
-  - DOMAIN,diagnosis.ad.xiaomi.com
-  - DOMAIN,log.ad.xiaomi.com
-  - DOMAIN,m.track.ad.xiaomi.com
-  - DOMAIN,sdkconfig.ad.xiaomi.com
+  - "tracking.miui.com"
+  - "data.mistat.xiaomi.com"
+  - "diagnosis.ad.xiaomi.com"
+  - "log.ad.xiaomi.com"
+  - "m.track.ad.xiaomi.com"
+  - "sdkconfig.ad.xiaomi.com"
 
   # 小爱同学
-  - DOMAIN,tracker.ai.xiaomi.com
+  - "tracker.ai.xiaomi.com"
 
   # 好像是小米自己的引擎 还在内测
-  - DOMAIN,mazu.sec.miui.com
+  - "mazu.sec.miui.com"
 
   # avl
-  - DOMAIN,miui-fxcse.avlyun.com
-  - DOMAIN,sdkconf.avlyun.com
-  - DOMAIN,sdkconf.avlyun.com
-  - DOMAIN,miav-cse.avlyun.com
-  - DOMAIN,update.avlyun.sec.miui.com
-  - DOMAIN,ixav-cse.avlyun.com
-  - DOMAIN,logupdate.avlyun.sec.miui.com
+  - "miui-fxcse.avlyun.com"
+  - "sdkconf.avlyun.com"
+  - "sdkconf.avlyun.com"
+  - "miav-cse.avlyun.com"
+  - "update.avlyun.sec.miui.com"
+  - "ixav-cse.avlyun.com"
+  - "logupdate.avlyun.sec.miui.com"
 
   # 流量更新、病毒白名单
-  - DOMAIN,api.sec.miui.com
+  - "api.sec.miui.com"
 
   # 禁用后无法开启部分权限
-  #  - DOMAIN,srv.sec.miui.com
+  #  - "srv.sec.miui.com"
 
   #权限云控 好像只针对部分机型？
-  - DOMAIN,auth.be.sec.miui.com
+  - "auth.be.sec.miui.com"
 
   #反诈
-  - DOMAIN,flash.sec.miui.com
+  - "flash.sec.miui.com"
 
   #快应用
-  - DOMAIN,api.hybrid.xiaomi.com
+  - "api.hybrid.xiaomi.com"
 
   #浏览器 热点下滑等
-  - DOMAIN,o2o.api.xiaomi.com
-  - DOMAIN,api.browser.miui.com
-  - DOMAIN,ssl-cdn.static.browser.mi-img.com
-  - DOMAIN,security.browser.miui.com
-  - DOMAIN,hot.browser.miui.com
-  - DOMAIN,r.browser.miui.com
-  - DOMAIN,hd.browser.miui.com
-  - DOMAIN,c3-cache.browser.miui.com
-  - DOMAIN,api-ipv4.browser.miui.com
+  - "o2o.api.xiaomi.com"
+  - "api.browser.miui.com"
+  - "ssl-cdn.static.browser.mi-img.com"
+  - "security.browser.miui.com"
+  - "hot.browser.miui.com"
+  - "r.browser.miui.com"
+  - "hd.browser.miui.com"
+  - "c3-cache.browser.miui.com"
+  - "api-ipv4.browser.miui.com"
 
   # 系统应用检查更新 e.g 下载管理
-  - DOMAIN,api.developer.xiaomi.com
+  - "api.developer.xiaomi.com"
 
   # 禁用后无法加载手机管家App内的图标
-  #  - DOMAIN,keybag.id.mi.com
+  #  - "keybag.id.mi.com"
 
   #  云控???
-  - DOMAIN,qsb.browser.miui.srv
-  - DOMAIN,rom.pt.miui.srv
-  - DOMAIN,ccc.sys.miui.com
-  - DOMAIN,jupiter.sys.miui.com
-  - DOMAIN,metok.sys.miui.com
+  - "qsb.browser.miui.srv"
+  - "rom.pt.miui.srv"
+  - "ccc.sys.miui.com"
+  - "jupiter.sys.miui.com"
+  - "metok.sys.miui.com"
 
   # 其他系统应用的垃圾sdk
   # qq扫描 bugly 阅读 快应用等api
   # 可能会影响部分功能
-  - DOMAIN,tmfsdk.m.qq.com
-  - DOMAIN,tmfsdk4.m.qq.com
-  - DOMAIN,tbm.snssdk.com
-  - DOMAIN,othstr.beacon.qq.com
-  - DOMAIN,tools.3g.qq.com
-  - DOMAIN,tmfsdktcp.m.qq.com
-  - DOMAIN,h.trace.qq.com
-  - DOMAIN,hub5pn.wap.sandai.net
-  - DOMAIN,tpstelemetry.tencent.com
-  - DOMAIN,pssn.alicdn.com
-  - DOMAIN,tmfsdktcpv4.m.qq.com
-  - DOMAIN,tmeadcomm.y.qq.com
-  - DOMAIN,tangram.e.qq.com
-  - DOMAIN,us.l.qq.com
-  - DOMAIN,tdid.m.qq.com
-  - DOMAIN,h.trace.qq.com
-  - DOMAIN,api.yky.qq.com
-  - DOMAIN,sdk.e.qq.com
-  - DOMAIN,android.bugly.qq.com
-  - DOMAIN,toblog.ctobsnssdk.com
-  - DOMAIN,tobapplog.ctobsnssdk.com
-  - DOMAIN,cfg.imtt.qq.com
-  - DOMAIN,statres.quickapp.cn
-  - DOMAIN,qr.quickapp.cn
-  - DOMAIN,hybrid.xiaomi.com
-  - DOMAIN,hybrid.miui.com
-  - DOMAIN,s1.irs03.com
-  - DOMAIN,up.cm.ksmobile.com
-  - DOMAIN,dl.cm.ksmobile.com
-  - DOMAIN,dw-online.ksosoft.com
-  - DOMAIN,zzhc.vnet.cn
-  - DOMAIN,beacon-api.aliyuncs.com
-  - DOMAIN,mpush-api.aliyun.com
-  - DOMAIN,ug.snssdk.com
-  - DOMAIN,t7z.cupid.iqiyi.com
-  - DOMAIN,worldwide.sogou.com
-  - DOMAIN,www.pangolin-dsp-toutiao.com
-  - DOMAIN,master.wap.dphub.sandai.net
-  - DOMAIN,hub5u.wap.sandai.net
-  - DOMAIN,idx.m.hub.sandai.net
-  - DOMAIN,tw13b093.sandai.net
-  - DOMAIN,adinfo.ra1.xlmc.sec.miui.com
-  - DOMAIN,test.ad.xiaomi.com
-  - DOMAIN,uploadlog.xlmc.sandai.net
-  - DOMAIN,t03-api.xlmc.xunlei.com
-  - DOMAIN,pre.api.tw06.xlmc.sandai.net
-  - DOMAIN,guid-xldw-ssl.n0808.com
+  - "tmfsdk.m.qq.com"
+  - "tmfsdk4.m.qq.com"
+  - "tbm.snssdk.com"
+  - "othstr.beacon.qq.com"
+  - "tools.3g.qq.com"
+  - "tmfsdktcp.m.qq.com"
+  - "h.trace.qq.com"
+  - "hub5pn.wap.sandai.net"
+  - "tpstelemetry.tencent.com"
+  - "pssn.alicdn.com"
+  - "tmfsdktcpv4.m.qq.com"
+  - "tmeadcomm.y.qq.com"
+  - "tangram.e.qq.com"
+  - "us.l.qq.com"
+  - "tdid.m.qq.com"
+  - "h.trace.qq.com"
+  - "api.yky.qq.com"
+  - "sdk.e.qq.com"
+  - "android.bugly.qq.com"
+  - "toblog.ctobsnssdk.com"
+  - "tobapplog.ctobsnssdk.com"
+  - "cfg.imtt.qq.com"
+  - "statres.quickapp.cn"
+  - "qr.quickapp.cn"
+  - "hybrid.xiaomi.com"
+  - "hybrid.miui.com"
+  - "s1.irs03.com"
+  - "up.cm.ksmobile.com"
+  - "dl.cm.ksmobile.com"
+  - "dw-online.ksosoft.com"
+  - "zzhc.vnet.cn"
+  - "beacon-api.aliyuncs.com"
+  - "mpush-api.aliyun.com"
+  - "ug.snssdk.com"
+  - "t7z.cupid.iqiyi.com"
+  - "worldwide.sogou.com"
+  - "www.pangolin-dsp-toutiao.com"
+  - "master.wap.dphub.sandai.net"
+  - "hub5u.wap.sandai.net"
+  - "idx.m.hub.sandai.net"
+  - "tw13b093.sandai.net"
+  - "adinfo.ra1.xlmc.sec.miui.com"
+  - "test.ad.xiaomi.com"
+  - "uploadlog.xlmc.sandai.net"
+  - "t03-api.xlmc.xunlei.com"
+  - "pre.api.tw06.xlmc.sandai.net"
+  - "guid-xldw-ssl.n0808.com"
 
   # unknown
-  - DOMAIN,data.sec.miui.com
+  - "data.sec.miui.com"
 
   #此处主要屏蔽小米云扫描组件
-  - DOMAIN,log.avlyun.sec.intl.miui.com
-  - DOMAIN,update.avlyun.sec.miui.com
-  - DOMAIN,ixav-cse.avlyun.com
-  - DOMAIN,logupdate.avlyun.sec.miui.com
-  - DOMAIN,miui-fxcse.avlyun.com
-  - DOMAIN,sdkconf.avlyun.com
-  - DOMAIN,sdkconf.avlyun.com
-  - DOMAIN,miav-cse.avlyun.com
-  - DOMAIN,miav-cse.avlyun.com
-  - DOMAIN,api.installer.xiaomi.com
-  - DOMAIN,tmfsdk.m.qq.com
-  - DOMAIN,a0.app.xiaomi.com
+  - "log.avlyun.sec.intl.miui.com"
+  - "update.avlyun.sec.miui.com"
+  - "ixav-cse.avlyun.com"
+  - "logupdate.avlyun.sec.miui.com"
+  - "miui-fxcse.avlyun.com"
+  - "sdkconf.avlyun.com"
+  - "sdkconf.avlyun.com"
+  - "miav-cse.avlyun.com"
+  - "miav-cse.avlyun.com"
+  - "api.installer.xiaomi.com"
+  - "tmfsdk.m.qq.com"
+  - "a0.app.xiaomi.com"
   #屏蔽后无法矫正流量，但是也用来下载白名单
-  #  - DOMAIN,api.sec.miui.com
-  - DOMAIN,adv.sec.miui.com
-  - DOMAIN,xlmc.sec.miui.com
+  #  - "api.sec.miui.com"
+  - "adv.sec.miui.com"
+  - "xlmc.sec.miui.com"
   #禁用后将无法云扫描病毒
-  - DOMAIN,etl-xlmc-ssl.sandai.net
-  - DOMAIN,cn.app.chat.xiaomi.net
+  - "etl-xlmc-ssl.sandai.net"
+  - "cn.app.chat.xiaomi.net"
   #疑似云盘，自行决定
-  #  - DOMAIN,pdc.micloud.xiaomi.net
-  - DOMAIN,a.hl.mi.com
+  #  - "pdc.micloud.xiaomi.net"
+  - "a.hl.mi.com"
   #禁用后可能会导致小米浏览器无法下载APK，因为有垃圾推广安装
-  - DOMAIN,idm.api.io.mi.com
-  - DOMAIN,api.jr.mi.com
-  - DOMAIN,ssl-cdn.static.browser.mi-img.com
-  - DOMAIN,flash.sec.miui.com
+  - "idm.api.io.mi.com"
+  - "api.jr.mi.com"
+  - "ssl-cdn.static.browser.mi-img.com"
+  - "flash.sec.miui.com"

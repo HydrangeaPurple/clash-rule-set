@@ -1,3 +1,5 @@
+# Behavior: domain
+
 payload:
-  - DOMAIN-SUFFIX,hanime1.me
-  - DOMAIN,vdownload.hembed.com
+  - "+.hanime1.me"
+  - "vdownload.hembed.com"

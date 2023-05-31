@@ -1,5 +1,7 @@
+# Behavior: domain
+
 payload:
-  - DOMAIN-SUFFIX,mypikpak.com
-  - DOMAIN-SUFFIX,mypikpak.net
-  - DOMAIN-SUFFIX,pikpak.me
-  - DOMAIN-SUFFIX,pikpakdrive.com
+  "+.mypikpak.com"
+  "+.mypikpak.net"
+  "+.pikpak.me"
+  "+.pikpakdrive.com"

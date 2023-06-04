@@ -1,8 +1,6 @@
 payload:
   # 订阅直连
   - DOMAIN,sub.nexconvert.com
-  # 我自己
-  - DOMAIN,www.ctgpaas.cn
   # 放行代理软件
   - PROCESS-NAME,Netch.exe
   - PROCESS-NAME,ShadowsocksR.exe

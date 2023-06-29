@@ -5,3 +5,4 @@ payload:
   - PROCESS-NAME,com.google.android.gsf
   - PROCESS-NAME,com.google.android.play.games
   - PROCESS-NAME,BackupandSync
+  - PROCESS-NAME,com.google.android.apps.docs

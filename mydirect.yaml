@@ -2,7 +2,6 @@ payload:
   # 订阅直连
   - DOMAIN,sub.nexconvert.com
   # 放行代理软件
-  - PROCESS-NAME,Netch.exe
   - PROCESS-NAME,ShadowsocksR.exe
   - PROCESS-NAME,Shadowsocks.exe
   - PROCESS-NAME,shadowsocksr-win.exe

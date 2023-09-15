@@ -7,6 +7,9 @@
 # MIUI 安装检查
 api.installer.xiaomi.com
 
+# miui系统更新
+update.miui.com
+
 #OneTrack & Analytics & Ad
 tracking.miui.com
 data.mistat.xiaomi.com

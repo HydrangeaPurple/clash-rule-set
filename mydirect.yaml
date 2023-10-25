@@ -10,6 +10,10 @@ payload:
   - PROCESS-NAME,shadowsocksr-win.exe
   - PROCESS-NAME,shadowsocks-win.exe
   - PROCESS-NAME,v2ray.exe
+  - PROCESS-NAME,hysteria-windows-amd64-avx.exe
+  - PROCESS-NAME,hysteria1-windows-amd64-avx.exe
+  - PROCESS-NAME,hysteria2-windows-amd64-avx.exe
+  - PROCESS-NAME,nekoray.exe
   - PROCESS-NAME,nekobox_core.exe
   - PROCESS-NAME,nekoray_core.exe
   # 放行BT软件

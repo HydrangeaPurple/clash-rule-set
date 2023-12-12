@@ -1,11 +1,7 @@
 # Behavior: domain
 
-# 里番网站, 禁止日本
-+.hanime1.me
-vdownload.hembed.com
-
-# 泰国论坛, 禁止日本
-+.2th.me
+# 灵梦御所，仅限日美
++.reimu.net
 
 # 日本 pairs, 仅限日本
 +.pairs.lv

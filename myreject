@@ -11,7 +11,7 @@ pipe.aria.microsoft.com
 ntp.msn.com
 web.vortex.data.microsoft.com
 browser.events.data.msn.com
-www.msn.com
+#www.msn.com
 assets.msn.com
 c.msn.com
 # for china
@@ -20,7 +20,7 @@ pipe.aria.microsoft.cn
 ntp.msn.cn
 web.vortex.data.microsoft.cn
 browser.events.data.msn.cn
-www.msn.cn
+#www.msn.cn
 assets.msn.cn
 c.msn.cn
 

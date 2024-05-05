@@ -6,23 +6,23 @@
 +.sentry.io
 
 #sb edge
-api.msn.com
-pipe.aria.microsoft.com
-ntp.msn.com
-web.vortex.data.microsoft.com
-browser.events.data.msn.com
+; api.msn.com
+; pipe.aria.microsoft.com
+; ntp.msn.com
+; web.vortex.data.microsoft.com
+; browser.events.data.msn.com
 #www.msn.com
 #assets.msn.com
-c.msn.com
+; c.msn.com
 # for china
-api.msn.cn
-pipe.aria.microsoft.cn
-ntp.msn.cn
-web.vortex.data.microsoft.cn
-browser.events.data.msn.cn
+; api.msn.cn
+; pipe.aria.microsoft.cn
+; ntp.msn.cn
+; web.vortex.data.microsoft.cn
+; browser.events.data.msn.cn
 #www.msn.cn
 #assets.msn.cn
-c.msn.cn
+; c.msn.cn
 
 #flash 屏蔽
 geo2.adobe.com

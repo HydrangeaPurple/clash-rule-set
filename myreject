@@ -24,6 +24,9 @@
 #assets.msn.cn
 ; c.msn.cn
 
+# postman屏蔽登录
++.launchdarkly.com
+
 #flash 屏蔽
 geo2.adobe.com
 flash.cn

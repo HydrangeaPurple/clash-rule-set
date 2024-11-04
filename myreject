@@ -27,6 +27,9 @@
 # postman屏蔽登录
 +.launchdarkly.com
 
+#哔哩漫游屏蔽黑名单
+black.qimo.ink
+
 #flash 屏蔽
 geo2.adobe.com
 flash.cn

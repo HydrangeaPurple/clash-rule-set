@@ -37,4 +37,5 @@ payload:
   - PROCESS-NAME,com.kuangxiangciweimao.novel
   # 放行游戏的域名
   - DOMAIN,webapi.lowiro.com
-  
+  # 放行内网穿透
+  - PROCESS-NAME,lucky.exe

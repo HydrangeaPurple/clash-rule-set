@@ -1,0 +1,29 @@
+# NAME: fakeIpFilter
+# AUTHOR: cl
+# UPDATED: 2024年12月11日
+# DOMAIN: 108
+# Behavior: domain
+*
++.lan
++.local
++.mshome
++.ipw.cn
++.market.xiaomi.com
+xbox.*.microsoft.com
+xbox.*.*.microsoft.com
++.xboxlive.com
+localhost.ptlogin2.qq.com
+dmd.metaservices.microsoft.com
++.stun.*.*
++.stun.*.*.*
++.stun.*.*.*.*
++.stun.*.*.*.*.*
++.stun.*.*.*.*.*.*
+*.n.n.srv.nintendo.net
++.stun.playstation.net
++.msftncsi.com
++.msftconnecttest.com
+connect.rom.miui.com
++.mcdn.bilivideo.cn
++.v1d.szbdyd.com
++.synology.com

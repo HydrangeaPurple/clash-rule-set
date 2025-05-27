@@ -60,6 +60,9 @@ kuaishou.httpdns.pro
 lofter.httpdns.c.163.com
 music.httpdns.c.163.com
 
+# trae用户信息收集
+mon-va.byteoversea.com
+
 # 其他屏蔽
 +.17gouwuba.com
 +.186078.com

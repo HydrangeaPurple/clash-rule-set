@@ -62,6 +62,7 @@ music.httpdns.c.163.com
 
 # trae用户信息收集
 mon-va.byteoversea.com
++.applicationinsights.azure.com
 
 # 其他屏蔽
 +.17gouwuba.com

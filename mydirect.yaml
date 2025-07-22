@@ -39,3 +39,5 @@ payload:
   - DOMAIN,webapi.lowiro.com
   # 放行内网穿透
   - PROCESS-NAME,lucky.exe
+  # 放行onedrive
+  - PROCESS-NAME,OneDrive.exe

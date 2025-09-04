@@ -1,3 +1,5 @@
 payload:
   # 代理手机app
   - PROCESS-NAME,moe.low.arc
+  # taptap
+  - DOMAIN-SUFFIX,taptap.io

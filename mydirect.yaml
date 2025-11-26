@@ -1,6 +1,7 @@
 payload:
   # 直连网站
   - DOMAIN-SUFFIX,julianwl.com
+  - DOMAIN-SUFFIX,dianxin.com
   # 订阅直连
   - DOMAIN,sub.nexconvert.com
   # 放行代理软件

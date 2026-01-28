@@ -3,3 +3,5 @@ payload:
   - PROCESS-NAME,moe.low.arc
   # taptap
   - DOMAIN-SUFFIX,taptap.io
+  # google dns
+  - DOMAIN,dns.google

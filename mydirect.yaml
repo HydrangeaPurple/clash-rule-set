@@ -1,8 +1,4 @@
 payload:
-  # 直连网站
-  - DOMAIN-SUFFIX,julianwl.com
-  # 订阅直连
-  - DOMAIN,sub.nexconvert.com
   # 放行代理软件
   - PROCESS-NAME,Netch.exe
   - PROCESS-NAME,ShadowsocksR.exe
@@ -16,6 +12,7 @@ payload:
   - PROCESS-NAME,nekoray.exe
   - PROCESS-NAME,nekobox_core.exe
   - PROCESS-NAME,nekoray_core.exe
+  - PROCESS-NAME,ProxiFyre.exe
   # 放行BT软件
   #- PROCESS-NAME,aria2c.exe
   - PROCESS-NAME,jxaria2c.exe
@@ -29,13 +26,15 @@ payload:
   - PROCESS-NAME,qbittorrent-nox
   # 放行百度网盘
   - PROCESS-NAME,baidunetdiskhost.exe
-  # 放行手机app
-  - PROCESS-NAME,com.taobao.taobao
-  - PROCESS-NAME,com.bilibili.comic
-  - PROCESS-NAME,com.bilibili.comic.intl
-  - PROCESS-NAME,com.alicloud.databox
-  - PROCESS-NAME,com.kuangxiangciweimao.novel
   # 放行游戏的域名
   - DOMAIN,webapi.lowiro.com
   # 放行内网穿透
   - PROCESS-NAME,lucky.exe
+  # 放行公司的vpn
+  - PROCESS-NAME,EasyConnect.exe
+  - PROCESS-NAME,AnyConnect.exe
+  - PROCESS-NAME,aTrustAgent.exe
+  - PROCESS-NAME,gwclient.exe
+  - PROCESS-NAME,gwstub.exe
+  - PROCESS-NAME,VpnServ.exe
+  - PROCESS-NAME,YunMai.exe

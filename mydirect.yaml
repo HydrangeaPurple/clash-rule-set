@@ -1,6 +1,8 @@
 payload:
   # 放行CDN
   - DOMAIN,download-cdn.jetbrains.com
+  # 放行DNS
+  - DOMAIN,local.adguard.org
   # 放行代理软件
   - PROCESS-NAME,Netch.exe
   - PROCESS-NAME,ShadowsocksR.exe

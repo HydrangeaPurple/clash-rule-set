@@ -42,3 +42,5 @@ payload:
   - PROCESS-NAME,gwstub.exe
   - PROCESS-NAME,VpnServ.exe
   - PROCESS-NAME,YunMai.exe
+  # 放行AI
+  - DOMAIN,opencode.ai

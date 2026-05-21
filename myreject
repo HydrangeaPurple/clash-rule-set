@@ -5,6 +5,11 @@
 # openai的第三方统计平台
 +.sentry.io
 
+# trae用户信息收集
+mon-va.byteoversea.com
++.applicationinsights.azure.com
+dc.services.visualstudio.com
+
 #sb edge
 ; api.msn.com
 ; pipe.aria.microsoft.com
